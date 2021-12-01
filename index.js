@@ -138,24 +138,70 @@ console.log(jacketPrice)
 */
 
 /* WRITE YOUR ANSWER HERE */
+console.log("----------------------------------------")
+
+let int1 = 16;
+let int2 = 8;
 
 
-let int1 = 8
-let int2 = 16
 
+if(int1 ==8 ){
+    console.log("Int1 is 8")
+}else if(int2 == 8 ){
+    console.log("Int2 is 8")
+}else if(int1+int2==8){
+console.log("Sum Int1 + Int2 = 8")
 
+}
+else if(int1-int2 == 8) {
 
-if(int1 - int2){
-    console.log(return)
+console.log("Difference Int1 - Int2 = 8")
 }
 
+else if(int2- int1 == 8 ){
+console.log("Difference Int2 - Int1 = 8")
+}
+else{
+
+    console.log("None of results equal 8")
+
+}
+/* EXTRA 3
+ Create a variable and assign to it the concatenation of two strings.
+*/
+
+/* WRITE YOUR ANSWER HERE */
 
 
+let firstName = 'Sumrooz';
+let secondname = 'Zia';
 
+let cast ="Rajpoot" ;
  
+console.log("Your Full Name is:- " + firstName + " " + secondname + " " + cast )
+
+console.log("----------------------------------------")
+
+let ismale = true;
+
+let genderof = ismale? "male" : "female"
+
+console.log(genderof)
  
 
+let a = 3
+let b = 5
+
+if(a===8 || b===8 || a-b === 8){
+    console.log(true)
+
+}else{
+    console.log(false)
+}
+
+let ProfileName = "Sumrooz"+ " Zia"
+console.log(ProfileName)
 
 
 
-
+console.log("-------------------------------------------------")
